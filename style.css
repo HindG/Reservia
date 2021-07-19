@@ -1,0 +1,142 @@
+@font-face {
+	font-family:"Raleway";
+	src: url("images/Raleway.ttf");
+}
+
+body {
+	display:block;
+	font-family: Raleway, Georgia, Sans-serif;
+    margin-left:40px;
+}
+
+header {
+    display: flex;
+	flex-direction: row;
+}
+
+.header_nav_desktop {
+    display: flex;
+    flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+    width: 100%;
+}
+
+.puces_nav_desktop {
+    display: flex;
+    flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav, a {
+    color:#000000;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.nav_selection {
+    color:#0065FC;
+    text-decoration: none;
+    padding: 40px;
+    border-top: solid 2px #0065FC;
+}
+
+.inscription {
+    color:#0065FC;
+    font-weight:bold;
+}
+
+.titre_page {
+    font-weight:bold;
+    margin:0;
+}
+
+#barre_recherche {
+    display: flex;
+    flex-direction:row;
+    width: 360px;
+    height: 50px;
+}
+
+.icones {
+    height: 15px;
+    margin: auto;
+}
+
+#icone_recherche {
+    display:flex;
+    background-color:#F2F2F2;
+    width:40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.texte_recherche {
+    display:flex;
+    width: 200px;
+    border:solid 1px #F2F2F2;
+}
+
+.texte_form {
+    display:flex;
+}
+
+#bouton_recherche {
+    display:flex;
+    width: 90px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #0065FC;
+    color:#ffffff;
+    border:none;
+}
+
+#texte_recherche_p {
+    margin-left:15px;
+    font-weight:bold;
+    border: none;
+}
+
+#bouton_recherche_p {
+    margin-left:15px;
+    font-weight:bold;
+}
+
+#contenant_filtres {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width:870px;
+    margin:25px 0 25px 0;
+    height:45px;
+}
+
+#titre_filtres {
+    display:flex;
+    font-weight:bold;
+}
+
+.bouton_filtres {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight:bold;
+    border:solid 2px #F2F2F2;
+    padding: 0 40px;
+    border-radius:35px;
+}
+
+.bouton_filtres_p {
+    margin:auto;
+}
+
+.info_ville {
+    display:flex;
+    flex-direction: row;
+}
