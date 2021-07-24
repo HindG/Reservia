@@ -57,7 +57,7 @@ nav, a {
     margin:0;
 }
 
-#barre_recherche {
+.barre_recherche {
     display: flex;
     flex-direction:row;
     width: 360px;
@@ -65,16 +65,25 @@ nav, a {
 }
 
 .icones {
-    height: 15px;
+    height: 100%;
     margin: auto;
+    padding: 10px;
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius:45px;
+    box-sizing: border-box;
+    width:40px;
 }
 
-#icone_recherche {
-    display:flex;
+.icone_recherche {
     background-color:#F2F2F2;
     width:40px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+}
+
+.icone_map {
+    margin:auto;
 }
 
 .texte_recherche {
@@ -87,7 +96,7 @@ nav, a {
     display:flex;
 }
 
-#bouton_recherche {
+.bouton_recherche {
     display:flex;
     width: 90px;
     border-top-right-radius: 15px;
@@ -95,20 +104,21 @@ nav, a {
     background-color: #0065FC;
     color:#ffffff;
     border:none;
+    font-weight:bold;
 }
 
-#texte_recherche_p {
+.texte_recherche_p {
     margin-left:15px;
     font-weight:bold;
     border: none;
 }
 
-#bouton_recherche_p {
+.bouton_recherche_p {
     margin-left:15px;
     font-weight:bold;
 }
 
-#contenant_filtres {
+.contenant_filtres {
     display:flex;
     flex-direction:row;
     justify-content: space-between;
@@ -117,7 +127,7 @@ nav, a {
     height:45px;
 }
 
-#titre_filtres {
+.titre_filtres {
     display:flex;
     font-weight:bold;
 }
@@ -128,15 +138,21 @@ nav, a {
     justify-content: space-around;
     font-weight:bold;
     border:solid 2px #F2F2F2;
-    padding: 0 40px;
     border-radius:35px;
 }
 
 .bouton_filtres_p {
     margin:auto;
+    padding: 10px;
+    font-weight: bold;
 }
 
 .info_ville {
     display:flex;
     flex-direction: row;
+    width:440px;
+}
+
+.icone_info {
+    margin:auto
 }

@@ -12,6 +12,8 @@
         <meta property="og:url" content="http://reservia.com"/>
         <meta property="og:image" content="images/image_meta.jpg"/>
         <meta property="og:description" content="Reservia vous permet de planifier vos vacances du logement aux activités, pour un séjour sur mesure"/>
+        <!-- Bibliothèque d'icones -->
+        <script src="https://kit.fontawesome.com/776b85a16a.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -31,27 +33,27 @@
             <h2 class="titre_page">Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre-ville ou en pleine nature</p>
         </section>
-        <section id="barre_recherche">
-            <div id="icone_recherche"><img class="icones" src="images/map-marker-alt-solid.svg"></div>
+        <section class="barre_recherche">
+            <div class="icone_recherche"><i class="fas fa-map-marker-alt icone_map"></i></div>
             <form class="texte_recherche">
                 <div class="texte_form">
-                  <input id="texte_recherche_p" type="text" name="Recherche" placeholder="Marseille, France">
+                  <input class="texte_recherche_p" type="text" name="Recherche" placeholder="Marseille, France">
                 </div>
                 <div class="texte_form">
-                  <input type="submit" id="bouton_recherche" value="Rechercher">
+                  <input type="submit" class="bouton_recherche" value="Rechercher">
                 </div>
               </form>
         </section>
-        <section id="contenant_filtres">
-            <div id="titre_filtres"><p class="bouton_filtres_p">Filtres</p></div>
-            <div class="bouton_filtres"><img class="icones" src="images/money-bill-wave-solid.png"><p class="bouton_filtres_p">Economique</p></div>
-            <div class="bouton_filtres"><p class="bouton_filtres_p">Familial</p></div>
-            <div class="bouton_filtres"><p class="bouton_filtres_p">Romantique</p></div>
-            <div class="bouton_filtres"><p class="bouton_filtres_p">Animaux autorisés</p></div>
+        <section class="contenant_filtres">
+            <div class="titre_filtres"><p class="bouton_filtres_p">Filtres</p></div>
+            <div class="bouton_filtres"><i class="fas fa-money-bill-wave icones"></i><p class="bouton_filtres_p">Economique</p></div>
+            <div class="bouton_filtres"><i class="fas fa-child icones"></i><p class="bouton_filtres_p">Familial</p></div>
+            <div class="bouton_filtres"><i class="fas fa-heart icones"></i><p class="bouton_filtres_p">Romantique</p></div>
+            <div class="bouton_filtres"><i class="fas fa-dog icones"></i><p class="bouton_filtres_p">Animaux autorisés</p></div>
         </section>
-        <section id="info_ville">
-            <img src="" />
-            <div class="info"><p>Plus de 500 logements sont disponibles dans cette ville</p></div>
+        <section class="info_ville">
+            <i class="fas fa-info-circle icone_info"></i>
+            <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
         </section>
         <!-- Intégration Hébergements -->
         <section>
