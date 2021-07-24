@@ -7,6 +7,7 @@ body {
 	display:block;
 	font-family: Raleway, Georgia, Sans-serif;
     margin-left:40px;
+    margin-right:40px
 }
 
 header {
@@ -40,7 +41,7 @@ nav, a {
     padding: 40px;
 }
 
-.nav_selection {
+.nav:hover {
     color:#0065FC;
     text-decoration: none;
     padding: 40px;
@@ -151,8 +152,210 @@ nav, a {
     display:flex;
     flex-direction: row;
     width:440px;
+    margin-bottom:20px;
 }
 
 .icone_info {
     margin:auto
+}
+
+.hebergements {
+    display:flex;
+    flex-direction: row;
+}
+
+.hebergements_ville {
+    background-color: #F2F2F2;
+    border-radius:20px;
+    width:66%;
+    margin-right:40px;
+    padding:20px;
+}
+
+h3 {
+    font-weight: bold;
+    margin-left:23px;
+}
+
+.rangee_hebergements {
+    display:flex;
+    flex-direction: row;
+}
+
+.hebergement_miniature {
+    background-color: white;
+    width:33%;
+    padding: 5px;
+    border-radius:25px;
+    margin:18px;
+}
+
+.img_hebergement1 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    background-position:center;
+}
+
+.tarif {
+    font-weight:bold;
+}
+
+.img_hebergement2 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    background-position:center;
+}
+
+.img_hebergement3 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    background-position:center;
+}
+
+.img_hebergement4 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    background-position:center;
+}
+
+.img_hebergement5 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    background-position:center;
+}
+
+.img_hebergement6 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 170px;
+    background-position:center;
+}
+
+h4 {
+    font-weight: bold;
+    margin: 8px 0 0 15px;
+}
+
+.prix_nuit {
+    margin: 5px 5px 5px 15px; 
+}
+
+.hebergements_populaires {
+    background-color: #F2F2F2;
+    border-radius:20px;
+    width:33%;
+    padding:20px;
+}
+
+.etoiles {
+    display:flex;
+    flex-direction: row;
+    margin: 5px 5px 5px 15px;
+}
+
+.etoile_pleine {
+    color:#0065FC;
+}
+
+.etoile_vide {
+    color:rgb(168, 178, 189);
+}
+
+.afficher_plus {
+    text-decoration:none;
+    font-weight:bold;
+    color:#000000;
+    padding:20px;
+}
+
+.titre_populaires {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icones_stats {
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    width:40px;
+}
+
+.hebergement_miniature_pop {
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 5px;
+    border-radius:25px;
+    margin:18px;
+}
+
+.img_hebergement1b {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-image: url("images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+    background-size: cover;
+    width: 33%;
+    height: 170px;
+    background-position:center;
+}
+
+.img_hebergement2b {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-image: url("images/aw-creative-VGs8z60yT2c-unsplash.jpg");
+    background-size: cover;
+    width: 33%;
+    height: 170px;
+    background-position:center;
+}
+
+.img_hebergement3b {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-image: url("images/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+    background-size: cover;
+    width: 33%;
+    height: 170px;
+    background-position:center;
+}
+
+.etoiles_pop {
+    display:flex;
+    flex-direction: row;
+    margin: 5px 5px 5px 15px;
+}
+
+.caracteristiques_hebergements {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between
+}
+
+.prix_nuit_pop {
+    margin: -78px 5px 5px 15px; 
 }
