@@ -81,10 +81,9 @@ nav, a {
     width:40px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-}
-
-.icone_map {
-    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .texte_recherche {
@@ -188,6 +187,7 @@ h3 {
     padding: 5px;
     border-radius:25px;
     margin:18px;
+    box-shadow: 0px 0px 5px 0px rgb(204 204 204);
 }
 
 .img_hebergement1 {
@@ -303,6 +303,8 @@ h4 {
     padding: 10px;
     box-sizing: border-box;
     width:40px;
+    display:flex;
+    align-items: center;
 }
 
 .hebergement_miniature_pop {
@@ -312,6 +314,7 @@ h4 {
     padding: 5px;
     border-radius:25px;
     margin:18px;
+    box-shadow: 0px 0px 5px 0px rgb(204 204 204);
 }
 
 .img_hebergement1b {
@@ -359,3 +362,115 @@ h4 {
 .prix_nuit_pop {
     margin: -78px 5px 5px 15px; 
 }
+
+.contenant_activites {
+    width:25%;
+}
+
+.activites {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 350px;
+    box-sizing: border-box;
+}
+
+.activite_grand {
+    border-radius:25px;
+    margin:18px; 
+    box-shadow: 0px 0px 5px 0px rgb(204 204 204);
+    height: 345px;
+}
+
+.img_activite1 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    background-size: cover;
+    height: 300px;
+    background-position:right;
+}
+
+.titre_activite {
+    font-weight:bold;
+    margin-left:15px;
+}
+
+.activite_petit1 {
+    border-radius:25px;
+    margin:18px; 
+    box-shadow: 0px 0px 5px 0px rgb(204 204 204);
+    height: 200px;
+}
+
+.activite_petit2 {
+    border-radius:25px;
+    margin:18px; 
+    box-shadow: 0px 0px 5px 0px rgb(204 204 204);
+    height: 130px;
+}
+
+.activite_petit2 {
+    border-radius:25px;
+    margin:18px; 
+    box-shadow: 0px 0px 5px 0px rgb(204 204 204);
+    height: 130px;
+}
+
+.img_activite2 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+    background-size: cover;
+    height: 160px;
+    background-position:right;
+}
+
+.img_activite3 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+    background-size: cover;
+    height: 85px;
+    background-position:right;
+}
+
+.img_activite4 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+    background-size: cover;
+    height: 300px;
+    background-position:right;
+}
+
+.activite_petit3 {
+    border-radius:25px;
+    margin:18px; 
+    box-shadow: 0px 0px 5px 0px rgb(204 204 204);
+    height: 46%;
+}
+
+.img_activite5 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+    background-size: cover;
+    height: 110px;
+    background-position:right;
+}
+
+.img_activite6 {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-image: url("images/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+    background-size: cover;
+    height: 110px;
+    background-position:right;
+}
+
+.footer {
+    background-color: #F2F2F2;
+}
+
+
