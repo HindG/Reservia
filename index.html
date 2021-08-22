@@ -21,19 +21,33 @@
         <div class="container">
             <!-- Intégration Header -->
             <header>
-                <img src="images/Reservia.svg" src="#"/>
-                <nav class="header_nav_desktop">
-                    <ul class="puces_nav_desktop">
-                        <li><a class="nav" href="#">Hébergement</a></li>
-                        <li><a class="nav" href="#">Activités</a></li>
-                        <li><a class="inscription" href="#">S'inscrire</a></li>
-                    </ul>
-                </nav>
+                <div class="header_desktop">
+                    <img src="images/Reservia.svg" src="#"/>
+                    <nav class="header_nav_desktop">
+                        <ul class="puces_nav_desktop">
+                            <li><a class="nav" href="#">Hébergement</a></li>
+                            <li><a class="nav" href="#">Activités</a></li>
+                            <li><a class="inscription" href="#">S'inscrire</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header_mobile">
+                    <div class="header_mobile1">
+                        <img src="images/Reservia.svg" src="#"/>
+                        <a class="inscription" href="#">S'inscrire</a>
+                    </div>
+                    <div class="header_mobile2">
+                        <ul class="puces_nav_desktop">
+                            <li><a class="nav" href="#">Hébergement</a></li>
+                            <li><a class="nav" href="#">Activités</a></li>
+                        </ul>
+                    </div>
+                </div>
             </header>
             <!-- Intégration Barre de recherche -->
             <section>
                 <h2 class="titre_page">Trouvez votre hébergement pour des vacances de rêve</h2>
-                <p>En plein centre-ville ou en pleine nature</p>
+                <p class="soustitre_page">En plein centre-ville ou en pleine nature</p>
             </section>
             <section class="barre_recherche">
                 <div class="icone_recherche"><i class="fas fa-map-marker-alt icone_map"></i></div>
@@ -42,7 +56,8 @@
                     <input class="texte_recherche_p" type="text" name="Recherche" placeholder="Marseille, France">
                     </div>
                     <div class="texte_form">
-                    <input type="submit" class="bouton_recherche" value="Rechercher">
+                    <input type="submit" class="bouton_recherche_desktop" value="Rechercher">
+                    <div class="bouton_recherche_mobile"><i class="fas fa-search"></i></div>
                     </div>
                 </form>
             </section>
@@ -137,7 +152,7 @@
                             </div>
                         </div>
                     </div>
-                    <p><a href="#" class="afficher_plus">Afficher plus</a></p>
+                    <p class="p_afficher_plus"><a href="#" class="afficher_plus">Afficher plus</a></p>
                 </section>
                 <section class="hebergements_populaires">
                     <div class="titre_populaires">
