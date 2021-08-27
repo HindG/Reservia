@@ -104,7 +104,7 @@ nav, a {
 
 .texte_recherche {
     display:flex;
-    width: 200px;
+    width: 214px;
     border:solid 1px #F2F2F2;
 }
 
@@ -160,6 +160,10 @@ nav, a {
     margin:10px;
 }
 
+.bouton_filtres:hover {
+    background-color:  #DEEBFF;
+}
+
 .bouton_filtres_p {
     margin:auto;
     padding: 10px;
@@ -177,7 +181,7 @@ nav, a {
     margin:auto
 }
 
-.hebergements {
+#hebergements {
     display:flex;
     flex-direction: row;
 }
@@ -319,7 +323,7 @@ h4 {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     background-size: cover;
-    width: 33%;
+    width: 40%;
     height: 170px;
     background-position:center;
 }
@@ -342,7 +346,7 @@ h4 {
     margin: 5px 5px 5px 15px;
 }
 
-.titre_activite_principal {
+#titre_activite_principal {
     margin: 40px 23px 0;
     font-weight:bold;
 }
@@ -472,13 +476,23 @@ h4 {
         height: 50%;
     }
 
+    .img_hebergementb { 
+        width: 75%;
+    }
+
     .img_activite4 {
         height:84%;
     }
 }
 
+@media all and (max-width:1024px) {
+    .img_activite5 {
+        height: 69%;
+    }
+}
+
 @media all and (max-width:900px) {
-    .hebergements {
+    #hebergements {
         flex-direction: column-reverse;
     }
 
@@ -494,6 +508,10 @@ h4 {
         height:600px
     }
 
+    .img_hebergementb { 
+        width: 40%;
+    }
+
     .img_activite2 {
         height:72%;
     }
@@ -504,6 +522,73 @@ h4 {
 
     .img_activite6 {
         height:66%;
+    }
+}
+
+@media all and (max-width:768px) {
+    .activites {
+        flex-direction: row;
+        height:auto;
+        flex-wrap: wrap;
+    }
+
+    .contenant_activites {
+        width: 48%;
+    }
+
+    .activite_petit1 {
+        height: 48%;
+    }
+
+    .activite_petit2 {
+        height: 38%;
+    }
+
+    .activite_petit3 {
+        height: 43%;
+    }
+
+    .img_activite2 {
+        height: 82%;
+    }
+
+    .img_activite3 {
+        height: 76%;
+    }
+
+    .img_activite4 {
+        height: 88%;
+    }
+
+    .img_activite5 {
+        height: 77%;
+    }
+
+    .img_activite6 {
+        height: 74%;
+    }
+
+}
+
+@media all and (max-width:570px) {
+    .hebergements_ville {
+        height: 650px;
+    }
+
+    .rangee_hebergements {
+        height: 42%;
+    }
+
+    .img_activite5 {
+        height: 70%;
+    }
+
+    .img_activite6 {
+        height: 77%;
+    }
+
+    .img_activite4 {
+        height: 84%;
     }
 }
 
@@ -531,8 +616,11 @@ h4 {
         padding: 30px;
     }
 
-    .titre_page, .soustitre_page, .barre_recherche, .info_ville {
+    .titre_page, .soustitre_page, .info_ville {
         margin: 20px;
+    }
+    .barre_recherche {
+        justify-content: center;
     }
 
     .inscription {

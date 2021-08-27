@@ -22,24 +22,24 @@
             <!-- Intégration Header -->
             <header>
                 <div class="header_desktop">
-                    <img src="images/Reservia.svg" src="#"/>
+                    <img src="images/Reservia.svg" alt="Logo"/>
                     <nav class="header_nav_desktop">
                         <ul class="puces_nav_desktop">
-                            <li><a class="nav" href="#">Hébergement</a></li>
-                            <li><a class="nav" href="#">Activités</a></li>
+                            <li><a class="nav" href="#hebergements">Hébergement</a></li>
+                            <li><a class="nav" href="#titre_activite_principal">Activités</a></li>
                             <li><a class="inscription" href="#">S'inscrire</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="header_mobile">
                     <div class="header_mobile1">
-                        <img src="images/Reservia.svg" src="#"/>
+                        <img src="images/Reservia.svg" alt="Logo mobile"/>
                         <a class="inscription" href="#">S'inscrire</a>
                     </div>
                     <div class="header_mobile2">
                         <ul class="puces_nav_desktop">
-                            <li><a class="nav" href="#">Hébergement</a></li>
-                            <li><a class="nav" href="#">Activités</a></li>
+                            <li><a class="nav" href="#hebergements">Hébergement</a></li>
+                            <li><a class="nav" href="#titre_activite_principal">Activités</a></li>
                         </ul>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                 <h2 class="titre_page">Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p class="soustitre_page">En plein centre-ville ou en pleine nature</p>
             </section>
-            <section class="barre_recherche">
+            <div class="barre_recherche">
                 <div class="icone_recherche"><i class="fas fa-map-marker-alt icone_map"></i></div>
                 <form class="texte_recherche">
                     <div class="texte_form">
@@ -60,20 +60,20 @@
                     <div class="bouton_recherche_mobile"><i class="fas fa-search"></i></div>
                     </div>
                 </form>
-            </section>
-            <section class="contenant_filtres">
+            </div>
+            <div class="contenant_filtres">
                 <div class="titre_filtres"><p class="bouton_filtres_p">Filtres</p></div>
                 <div class="bouton_filtres"><i class="fas fa-money-bill-wave icones"></i><p class="bouton_filtres_p">Economique</p></div>
                 <div class="bouton_filtres"><i class="fas fa-child icones"></i><p class="bouton_filtres_p">Familial</p></div>
                 <div class="bouton_filtres"><i class="fas fa-heart icones"></i><p class="bouton_filtres_p">Romantique</p></div>
                 <div class="bouton_filtres"><i class="fas fa-dog icones"></i><p class="bouton_filtres_p">Animaux autorisés</p></div>
-            </section>
-            <section class="info_ville">
+            </div>
+            <div class="info_ville">
                 <i class="fas fa-info-circle icone_info"></i>
                 <p class="info">Plus de 500 logements sont disponibles dans cette ville</p>
-            </section>
+            </div>
             <!-- Intégration Hébergements -->
-            <section class="hebergements">
+            <div id="hebergements">
                 <section class="hebergements_ville">
                     <h3>Hébergements à Marseille</h3>
                     <div class="rangee_hebergements">
@@ -208,10 +208,10 @@
                         </div>    
                     </div>
                 </section>
-            </section>
+            </div>
             <!-- Intégration Activités -->
             <section>
-                <h3 class="titre_activite_principal">Activités à Marseille</h3>
+                <h3 id="titre_activite_principal">Activités à Marseille</h3>
                 <div class="activites">
                     <div class="contenant_activites">
                         <div class="activite_grand">
