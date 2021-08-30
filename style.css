@@ -525,6 +525,12 @@ h4 {
     }
 }
 
+@media all and (max-width:667px) {
+    .rangee_hebergements {
+        height: 45%;
+    }
+}
+
 @media all and (max-width:768px) {
     .activites {
         flex-direction: row;
